@@ -1,6 +1,6 @@
 
 %open text file, a matrix of numbers
-Data=importdata('SimResults.xlsx');
+Data=importdata('Simulted.txt');
 
 % 1 - Participant number Description100 
 % 2 - Dexscription100
@@ -45,3 +45,5 @@ STDDesc100NoT = std(Data.data(:,5));
 subplot(1,3,1), bar(MeanDesc100);
 subplot(1,3,2), bar(MeanExp100WithT);
 subplot(1,3,3), bar(MeanDesc100NoT);
+
+% a change that we need to do is this line and it is not imortant 
